@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap');
+
+body {
+    margin: 0px;
+    background-color: rgb(21, 21, 21);
+    font-family: 'Roboto Slab', serif;
+    
+}
+
+#header {
+    background-color: rgb(29, 23, 87);
+   /* width: 100%;*/
+    height: 7.5vw;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction:row;
+    border-bottom: 1px solid rgb(237, 249, 253);
+    padding-left: 15px;
+    align-items: center;
+
+}
+#nav {
+    border-bottom: 1px solid rgb(237, 249, 253);
+    display:flex;
+    justify-content: space-evenly;
+    margin: auto;
+    padding: 10px;
+    width: 20vw;
+    margin-bottom: 10px;
+}
+#article {
+    display: flex;
+    margin: auto;
+    width: 90%;
+    height: auto;
+    min-height: 100vh;
+    background-color: rgba(116, 116, 116, 0.048);
+    padding-left: 2%;
+}
+#left {
+    display: flex;
+    
+    width: 20vw;
+    height: 30vh;
+    margin:auto;
+    margin-top: 10vh;
+}
+#center {
+    display: flex;
+    
+    width: 20vw;
+    height: 30vh;
+    margin:auto;
+    margin-top: 10vh;
+
+}
+#right {
+    display: flex;
+    
+    width: 20vw;
+    height: 30vh;
+    margin: auto;
+    margin-top: 10vh;
+
+}
+
+h2 {
+    color: rgb(237, 249, 253);
+    font-size: 2.5vw;
+    text-shadow: 2px 2px 10px black;
+}
+p {
+    color: rgb(237, 249, 253);
+    font-size: 15px;
+    
+}
+
+a {
+    text-decoration: none;
+    color: rgb(237, 249, 253);
+}
+
+@media (max-width: 809px) {  
+    #nav {
+        flex-direction: column;
+        align-items: center;
+    }
+    #article, #left, #center, #right {
+        text-align: center;
+        padding-bottom: 5%;
+    }
+    #yhteystiedot {
+        display: inline;
+    }
+    
+  
+}
+
+.br{
+    display: none;
+}
+@media screen and (max-width: 800px) {
+
+    .br{
+        display: inline-block;
+    }
+    #footer {
+        padding-bottom: 7.5%;
+    }
+}
+
+
+#portfolio {
+    border-top: 1px solid white;
+    display: flex;
+    margin: auto;
+    width: 90%;
+    height: auto;
+    min-height: 100vh;
+    background-color: rgba(116, 116, 116, 0.048);
+    padding-left: 2%;
+}
+
+#footer {
+    border-top: 1px solid white;
+    display: flex;
+    margin: auto;
+    width: 90%;
+    height: auto;
+    min-height: 30vh;
+    background-color: rgba(116, 116, 116, 0.048);
+    padding-left: 2%;
+}
+
+.graphics {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-left: 1px solid rgba(182, 0, 0, 0.671);
+    width: 55%;
+    height: 100%;
+    padding-left: 5%;
+    color: rgb(237, 249, 253);
+    
+    
+}
+.timeline-text {
+    height: 100%;
+    width: 25%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-top: 7%;
+}
+
+#katsaus, #kotisivut, #first-footer {
+    display: flex;
+    width: 85%;
+    height: 30vh;
+    margin-top: 20vh;
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 20%;
+    height: 100%;
+    padding-right: 2%;
+    text-align: center;
+    
+}
+#first-video {
+    width: 50%;
+    height: auto;
+    
+}
+.timeline {
+    width: 50%;
+    height: 70%;
+}
+
+#yhteystiedot {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 35%;
+    height: 100%;
+    color: rgb(237, 249, 253);
+    
+}
+
+a:hover {
+color: rgba(182, 0, 0, 0.671);
+
+}
+
+#Btn {
+    display: none;
+    position: fixed; 
+    bottom: 6%; 
+    right: 5%;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: rgb(29, 23, 87);
+    color: rgb(237, 249, 253);
+    cursor: pointer; 
+    padding: 1%;
+    border-radius: 20px;
+    font-size: 30px; 
+}
+  
+  #Btn:hover {
+    background-color: rgba(29, 23, 87, 0.7);
+    color:rgb(237, 249, 253);
+  }
+

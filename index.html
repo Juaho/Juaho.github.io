@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fi-FI">
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>J.Ahonen</title>
+</head>
+
+<body>
+    <header>
+        <div id="header">
+            <h2 id="back-to-top">Juho Ahonen</h2>
+
+
+        </div>
+    </header>
+
+    <main>
+        <button onclick="topFunction()" id="Btn" title="Go to top">&#8673;</button>
+
+        <div id="nav">
+
+            <a href="#portfolio-linkki">Portfolio</a>
+            <a href="#yhteystiedot-linkki">Contact</a>
+
+
+
+        </div>
+
+        <article>
+
+            <div id="article">
+                <h2>Katsaus</h2>
+                <div id="katsaus">
+                    <div class="text">
+                        <h2>Yhteenveto</h2>
+                        <p>Mitä olen tehnyt?</p>
+                    </div>
+                    <div class="graphics">
+                        <h3>F-Secure Policy Manager Admin -sertifikaatti</h3>
+                        <img src="pmcs.jfif" alt="F-Secure Privacy Manager Admin -sertifikaatti" class="timeline">
+                    </div>
+                    <div class="timeline-text">
+                        <p>Suoritin F-Securen Policy Manager Admin -sertifikaatin joulukuussa 2021.</p>
+                    </div>
+                </div>
+            </div>
+
+            </div>
+        </article>
+        <section>
+            <div id=portfolio>
+
+                <h2 id="portfolio-linkki">Portfolio</h2>
+
+                <div id="kotisivut">
+
+                    <div class="text">
+                        <h2>Kotisivut</h2>
+
+                        <p>Ensimmäinen projektini jonka julkaisen on kotisivuni, jota juuri selaat.<br> Ohessa kuvitusta
+                            projektin etenemisestä.</p>
+                    </div>
+                    <div class="graphics">
+                        <h3>Beta -versio</h3>
+                        <video id="first-video" controls autoplay>
+                            <source src="webpage.mp4">
+                        </video>
+                    </div>
+                    <div class="timeline-text">
+                        <p>Kuvakaappaus kotisivujen beta -versiosta.</p>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+
+        </section>
+        <footer>
+            <div id="footer">
+                <h2 id="yhteystiedot-linkki">Yhteystiedot</h2>
+                <div id="first-footer">
+
+                    <div id="yhteystiedot">
+                        <h3>Ota yhteyttä, mikäli heräsi kysymyksiä!</h3>
+                        <address>
+                            Sähköposti: <br class="br"><a href="mailto:juho.ahonen@edu.taitotalo.fi">juho.ahonen (ät)
+                                edu.taitotalo.fi</a><br><br>
+                            Linkedin: <br class="br"><a href="http://www.linkedin.com/in/juho-ahonen-9555881a4"
+                                target="_blank">Juho
+                                Ahonen</a>
+                        </address>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </footer>
+    </main>
+    <script>
+        mybutton = document.getElementById("Btn");
+
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+</body>
+
+
+</html>
