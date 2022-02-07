@@ -99,7 +99,7 @@ a {
 .br{
     display: none;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 810px) {
 
     .br{
         display: inline-block;
@@ -136,28 +136,20 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    border-left: 1px solid rgba(182, 0, 0, 0.671);
-    width: 55%;
+   
+    width: 80%;
     height: 100%;
     padding-left: 5%;
     color: rgb(237, 249, 253);
     
     
 }
-.timeline-text {
-    height: 100%;
-    width: 25%;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    padding-top: 7%;
-}
-
 #katsaus, #kotisivut, #first-footer {
     display: flex;
     width: 85%;
-    height: 30vh;
+    height: auto;
     margin-top: 20vh;
+    margin-bottom:5vh;
 }
 .text {
     display: flex;
@@ -172,13 +164,9 @@ a {
 #first-video {
     width: 50%;
     height: auto;
+    border: 1px solid rgba(182, 0, 0, 0.671);
     
 }
-.timeline {
-    width: 50%;
-    height: 70%;
-}
-
 #yhteystiedot {
     display: flex;
     flex-direction: column;
@@ -213,6 +201,12 @@ color: rgba(182, 0, 0, 0.671);
   #Btn:hover {
     background-color: rgba(29, 23, 87, 0.7);
     color:rgb(237, 249, 253);
+  }
+
+  .image-border {
+      border: 1px solid rgba(182, 0, 0, 0.671);
+      width: 50%;
+      height: auto;
   }
 
 /*timeline */
